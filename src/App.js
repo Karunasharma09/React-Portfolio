@@ -77,26 +77,26 @@ function App() {
       
       {/* </div> */}
       {/* <LineGradient /> */}
-      <div className="w-9/12 mx-auto md:h-full">
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("testimonials")}
-        >
-          <Testimonials />
-        </motion.div>
-      </div>
+      // <div className="w-9/12 mx-auto md:h-full">
+      //   <motion.div
+      //     margin="0 0 -200px 0"
+      //     amount="all"
+      //     onViewportEnter={() => setSelectedPage("testimonials")}
+      //   >
+      //     <Testimonials />
+      //   </motion.div>
+      // </div>
       {/* <LineGradient /> */}
-      <div className="w-9/12 mx-auto md:h-full">
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("contact")}
-        >
-          <Contact />
-        </motion.div>
-      </div>
-      <Footer />
+      // <div className="w-9/12 mx-auto md:h-full">
+      //   <motion.div
+      //     margin="0 0 -200px 0"
+      //     amount="all"
+      //     onViewportEnter={() => setSelectedPage("contact")}
+      //   >
+      //     <Contact />
+      //   </motion.div>
+      // </div>
+      // <Footer />
     </div>
   );
 }
