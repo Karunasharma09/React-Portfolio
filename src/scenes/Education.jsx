@@ -23,7 +23,7 @@ const Education = () => {
           <span className="font-semibold text-4xl ">
             Edu
           </span><span className="font-semibold text-4xl text-red">cation</span>
-          <LineGradient width="1/3"></LineGradient>
+          <div className="mt-5"><LineGradient width="1/3"></LineGradient></div>
         </motion.div>
       </div>
       
@@ -37,7 +37,7 @@ const Education = () => {
           viewport={{ once: true, amount: 0.5 }}
           transition={{ delay:0.5, duration: 0.5 }}
           variants={{
-            hidden: { opacity: 0, y: -50 },
+            hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
         >
@@ -81,7 +81,7 @@ const Education = () => {
                 class=" hover:bg-pink-500 hover:scale-105 transition duration-500 bg-red col-start-6 col-end-10 p-4   my-4 mr-auto shadow-md"
               >
                 <div class=" text-slate-900 font-semibold text-base mb-1">Kendriya Vidyalaya No 3, Air Force
-Station, Vadodara</div>
+                  Station, Vadodara</div>
                 <div className=" text-slate-800 font-semibold text-sm">Higher Secondary (Class 12th)</div>
                 <p class="leading-tight text-sm font-medium text-slate-700">
                   2020 passout 
@@ -95,7 +95,7 @@ Station, Vadodara</div>
                 class="hover:bg-amber-300  hover:scale-105 transition duration-500 bg-yellow col-start-1 col-end-5 p-4 my-4 ml-auto shadow-md"
               >
                 <div class=" text-slate-900 font-semibold text-base mb-1">Kendriya Vidyalaya No 3, Air Force
-Station, Makarpura</div>
+                  Station, Makarpura</div>
                 <div className=" text-slate-800 font-semibold text-sm">Secondary School (Class 10th)</div>
                 <p class="leading-tight text-sm font-medium text-slate-700">
                   2018 passout 

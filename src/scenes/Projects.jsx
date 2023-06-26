@@ -102,21 +102,21 @@ const Projects = () => {
           >
             SMOOTH USER EXPERIENCE
           </div>
-              <div className="flex justify-center text-center items-center p-4 bg-yellow
-              max-w-[400px] max-h-[400px] text-xl font-playfair font-semibold">
+              <div className="flex justify-center text-center items-center p-4 bg-slate-200
+              max-w-[400px] max-h-[400px] text-md font-playfair font-semibold">
                   Gihub links
               </div>
               
-            <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-yellow
-              max-w-[400px] max-h-[400px] text-xl font-playfair font-semibold">
+            <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-slate-200
+              max-w-[400px] max-h-[400px] text-md font-playfair font-semibold">
                  <a href="https://github.com/Karunasharma09/FHealth">Fhealth</a> 
             </div>
-            <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-yellow
-              max-w-[400px] max-h-[400px] text-xl font-playfair font-semibold">
+            <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-slate-200
+              max-w-[400px] max-h-[400px] text-md font-playfair font-semibold">
                   <a href="">BankWiz</a>
             </div>
-            <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-yellow
-              max-w-[400px] max-h-[400px] text-xl font-playfair font-semibold">
+            <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-slate-200
+              max-w-[400px] max-h-[400px] text-md font-playfair font-semibold">
                   <a href="https://github.com/Karunasharma09/TakeaStep">Take-A-Step</a>
             </div>
         </motion.div>

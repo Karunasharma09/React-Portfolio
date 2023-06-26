@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact py-48">
+    <section id="contact" className="contact py-32 font-custumfont md:p">
       {/* HEADINGS */}
       <motion.div
         initial="hidden"
@@ -29,20 +29,20 @@ const Contact = () => {
           hidden: { opacity: 0, x: 50 },
           visible: { opacity: 1, x: 0 },
         }}
-        className="flex justify-end w-full"
+        className="flex justify-end w-9/12 mx-auto"
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+          <p className=" font-semibold text-4xl">
+            <span className="text-red">CONTACT</span> ME
           </p>
-          <div className="flex md:justify-end my-5">
+          <div className="flex md:justify-start my-5">
             <LineGradient width="w-1/2" />
           </div>
         </div>
       </motion.div>
 
       {/* FORM & IMAGE */}
-      <div className="md:flex md:justify-between gap-16 mt-5">
+      <div className="md:flex md:justify-between gap-0 mt-5">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -54,7 +54,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contact-image.jpeg" alt="contact" />
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.541482816396!2d91.56199078384861!3d26.08123734065581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5987e09da847%3A0xfc90e6da1b4547c1!2sIndian%20Institute%20of%20Information%20Technology%20Guwahati%20(IIIT)!5e0!3m2!1sen!2sin!4v1687780612440!5m2!1sen!2sin" width="100%" height="500" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </motion.div>
 
         <motion.div
@@ -66,16 +66,17 @@ const Contact = () => {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="basis-1/2 mt-10 md:mt-0"
+          className=" my-auto h-[500px] basis-1/2 mt-10 md:mt-0 bg-slate-100 p-10 md:px-20"
         >
           <form
+            className="items-center my-6"
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+            action="https://formsubmit.co/6a332ec3ab7065b290afdb42a088a55a"
             method="POST"
           >
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+              className="w-full caret-blue border-4 border-blue rounded-lg outline-none bg-transparent font-semibold placeholder-opaque-black p-3"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -91,7 +92,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full border-4 border-red rounded-lg outline-none bg-transparent font-semibold placeholder-opaque-black p-3 mt-5"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -107,7 +108,7 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-transparent outline-none border-4 rounded-lg border-yellow font-semibold placeholder-opaque-black p-3 mt-5"
               name="message"
               placeholder="MESSAGE"
               rows="4"
@@ -125,13 +126,14 @@ const Contact = () => {
                   "Max length is 2000 char."}
               </p>
             )}
-
+            <div className="flex justify-center ">
             <button
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="p-5 bg-gradient-to-r rounded-lg from-blue via-red  to-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
               type="submit"
             >
               SEND ME A MESSAGE
             </button>
+            </div>
           </form>
         </motion.div>
       </div>

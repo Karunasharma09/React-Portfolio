@@ -11,13 +11,13 @@ const Landing = ({ setSelectedPage }) => {
       className=" font-custumfont mx-auto md:flex md:justify-between md:items-center gap-16 md:h-full"
     >
       {/* IMAGE SECTION */}
-      <div className='absolute top-36 right-40 w-2/3 h-56 bg-pink-200 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div>
-      <div className='absolute top-36 left-40 w-1/3 h-72 bg-sky-200 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div>
-      <div className='absolute top-52 left-1/3 w-1/3 h-72 bg-yellow-100 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div> 
+      <div className=' animate-pulse  absolute top-36 right-40 w-2/3 h-56 bg-pink-200 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div>
+      <div className=' animate-pulse absolute top-36 left-40 w-1/3 h-72 bg-sky-200 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div>
+      <div className='animate-pulse absolute top-52 left-1/3 w-1/3 h-72 bg-yellow-100 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div> 
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div
-          className="relative before:rounded-3xl z-0 ml-10 before:absolute before:-top-5 before:left-8
+          className=" relative before:rounded-3xl z-0 ml-10 before:absolute before:-top-5 before:left-8
           before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-8  before:border-yellow before:z-[-1]"
         >
           <div
@@ -74,31 +74,36 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
+          <div className="flex p-3 rounded-lg bg-gradient-to-r from-blue via-red to-yellow">
           <AnchorLink
-            className=" bg-blue text-deep-blue rounded-sm py-3 px-7 font-semibold
-             rounded-l-2xl hover:bg-cyan-400 hover:text-white transition duration-500 text-base"
+            className="  text-deep-blue py-2 px-5 font-semibold
+            rounded-l-2xl hover:text-white transition duration-500 text-base"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            Contact Me
+            Contact
           </AnchorLink>
-          <AnchorLink
-            className=""
+          {/* <AnchorLink */}
+            {/* className=""
             onClick={() => setSelectedPage("contact")}
             href="#contact"
-          >
-            <div className=" border-4 border-yellow rounded-r-2xl opacity-80 hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-5 text-base font-medium">
-              Download Resume 
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-</svg>
+          > */}
+            <div className="  rounded-r-2xl opacity-100 hover:text-red transition duration-500 flex items-center justify-center px-5 text-base font-semibold">
+            <a href={require("../assets/resume_prefinal.pdf")} download="myFile">Resume</a>
+               
+              <span className="animate-bounce">
+              <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+</svg></span>
+
 
             </div>
-          </AnchorLink>
+            </div>
+          {/* </AnchorLink> */}
         </motion.div>
 
         <motion.div
-          className="md:pl-10 flex mt-5 justify-center md:justify-start"
+          className="flex mt-0 justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}

@@ -3,7 +3,7 @@ import LineGradient from "../components/LineGradient";
 
 const MySkills = () => {
   return (
-    <section id="skills" className=" font-custumfont pt-0 pb-24 ">
+    <section id="skills" className=" font-custumfont pt-32 pb-32 ">
       {/* HEADER AND IMAGE SECTION */}
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
