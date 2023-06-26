@@ -26,21 +26,21 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className=" h-96 hover:filter hover:saturate-150 rounded-2xl transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+              className=" h-96 hover:filter hover:saturate-150 rounded-full transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
               src={require("../assets/p1.jpeg")}
             />
           </div></div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
+            className=" pt-5 rounded-full z-10 w-full max-w-[400px] md:max-w-[600px]"
             src={require("../assets/p1.jpeg")}
           />
         )}
       </div>
 
       {/* MAIN TEXT */}
-      <div className="md:pl-10 z-30 basis-2/5 mt-12 md:mt-32">
+      <div className="md:pt-5 z-30 basis-2/5 mt-12 md:mt-32">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -57,9 +57,8 @@ const Landing = ({ setSelectedPage }) => {
            
           </p>
 
-          <p className=" mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+          <p className=" mt-10 mb-10 text-xl text-center md:text-start">
+          I am a programmer, Frontend developer, and a Designer
           </p>
         </motion.div>
 
@@ -76,20 +75,24 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <AnchorLink
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+            className=" bg-blue text-deep-blue rounded-sm py-3 px-7 font-semibold
+             rounded-l-2xl hover:bg-cyan-400 hover:text-white transition duration-500 text-base"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
             Contact Me
           </AnchorLink>
           <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+            className=""
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            <div className="bg-white opacity-90 hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Let's talk.
+            <div className=" border-4 border-yellow rounded-r-2xl opacity-80 hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-5 text-base font-medium">
+              Download Resume 
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+</svg>
+
             </div>
           </AnchorLink>
         </motion.div>

@@ -18,15 +18,15 @@ const MySkills = () => {
           }}
         >
 
-          <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+          <p className="font-semibold text-4xl mb-5">
+            MY <span className="text-red mb-5">SKILLS</span>
           </p>
           <LineGradient width="1/3"></LineGradient>
         </motion.div>
       </div>
 
       {/* SKILLS */}
-      <div className="md:flex md:justify-between gap-16">
+      <div className=" mt-10 md:flex md:justify-between gap-16">
         {/* EXPERIENCE */}
         <motion.div
           className="md:w-1/3 mt-10"

@@ -28,6 +28,7 @@ function App() {
 
   return (
     <div className="">
+      
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
@@ -77,7 +78,7 @@ function App() {
       
       {/* </div> */}
       {/* <LineGradient /> */}
-      <div className="w-9/12 mx-auto md:h-full">
+      {/* <div className="w-9/12 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -87,7 +88,7 @@ function App() {
         </motion.div>
       </div>
       {/* <LineGradient /> */}
-      <div className="w-9/12 mx-auto md:h-full">
+      {/* <div className="w-9/12 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -96,7 +97,7 @@ function App() {
           <Contact />
         </motion.div>
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

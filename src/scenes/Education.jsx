@@ -9,7 +9,7 @@ const Education = () => {
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         
         <motion.div
-          className="md:w-1/3"
+          className="md:w-1/3 "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -49,7 +49,7 @@ const Education = () => {
             {/* <!-- left --> */}
             <div class="flex flex-row-reverse  md:contents">
               <div
-                class=" hover:bg-amber-300 hover:scale-105 transition duration-500 cursor-pointer  bg-yellow col-start-1 col-end-5 p-4   my-4 ml-auto shadow-md"
+                class="hover:bg-cyan-400  hover:scale-105 transition duration-500 cursor-pointer  bg-blue col-start-1 col-end-5 p-4   my-4 ml-auto shadow-md"
               >
                 <div class=" text-slate-900 font-semibold text-base mb-1">Indian Institute of Information Technology Guwahati </div>
                 <div className=" text-slate-800 font-semibold text-sm">B.Tech in Computer Science Engineering</div>
@@ -92,7 +92,7 @@ Station, Vadodara</div>
             {/* <!-- left --> */}
             <div class="flex flex-row-reverse md:contents">
               <div
-                class=" hover:bg-cyan-400 hover:scale-105 transition duration-500 bg-blue col-start-1 col-end-5 p-4 my-4 ml-auto shadow-md"
+                class="hover:bg-amber-300  hover:scale-105 transition duration-500 bg-yellow col-start-1 col-end-5 p-4 my-4 ml-auto shadow-md"
               >
                 <div class=" text-slate-900 font-semibold text-base mb-1">Kendriya Vidyalaya No 3, Air Force
 Station, Makarpura</div>
