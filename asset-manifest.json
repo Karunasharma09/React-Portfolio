@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.9daa576d.css",
-    "main.js": "/React-Portfolio/static/js/main.5fd6bcd6.js",
-    "static/media/p1.jpeg": "/React-Portfolio/static/media/p1.eaa0c61c993445611877.jpeg",
+    "main.css": "/React-Portfolio/static/css/main.3d19cfc1.css",
+    "main.js": "/React-Portfolio/static/js/main.3e1b878d.js",
     "static/media/project3.png": "/React-Portfolio/static/media/project3.3cf20787e8af6b7ce630.png",
     "static/media/project9.png": "/React-Portfolio/static/media/project9.5c44b8a0e85ffc7a0c94.png",
     "static/media/project5.png": "/React-Portfolio/static/media/project5.cdb8fbb00ee45f1ae648.png",
     "static/media/project1.png": "/React-Portfolio/static/media/project1.a3df29a62af28e195353.png",
+    "static/media/p1.jpeg": "/React-Portfolio/static/media/p1.02c0c3c2773593265f19.jpeg",
     "static/media/project7.png": "/React-Portfolio/static/media/project7.d6e723eabc025f3bcbf2.png",
     "static/media/project4.png": "/React-Portfolio/static/media/project4.3ee1d4e09e282151dda4.png",
     "static/media/project8.png": "/React-Portfolio/static/media/project8.ea9c140a1ea9a9d42a94.png",
@@ -18,12 +18,11 @@
     "static/media/person-2.png": "/React-Portfolio/static/media/person-2.6570129d3e8716b40235.png",
     "static/media/person-1.png": "/React-Portfolio/static/media/person-1.fb6c3796b42f9ad950c7.png",
     "index.html": "/React-Portfolio/index.html",
-    "static/media/menu-icon.svg": "/React-Portfolio/static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
-    "main.9daa576d.css.map": "/React-Portfolio/static/css/main.9daa576d.css.map",
-    "main.5fd6bcd6.js.map": "/React-Portfolio/static/js/main.5fd6bcd6.js.map"
+    "main.3d19cfc1.css.map": "/React-Portfolio/static/css/main.3d19cfc1.css.map",
+    "main.3e1b878d.js.map": "/React-Portfolio/static/js/main.3e1b878d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9daa576d.css",
-    "static/js/main.5fd6bcd6.js"
+    "static/css/main.3d19cfc1.css",
+    "static/js/main.3e1b878d.js"
   ]
 }
