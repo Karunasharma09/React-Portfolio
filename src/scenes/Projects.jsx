@@ -77,46 +77,46 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-semibold"
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" description= "Hero section of Fheath. An online aplication for spreading awarness about female health issues." />
-          <Project title="Project 2" description="Landing Page of an online banking application named BankWiz" />
+          <Project title="Project 1" description= "Hero section of Fhealth. An online application for spreading awareness about female health issues." />
+          <Project title="Project 2" description=" Landing Page of an online banking application named BankWiz" />
 
           {/* ROW 2 */}
           <Project title="Project 3" description="Landing page of Take-A-Step. An online platform to post issues of your surrounding and get them noticed." />
-          <Project title="Project 4" description="Landing page of an online Loan Application." />
-          <Project title="Project 5" description={"Body of Fhealth. This application also includes pcos, cancer and maleria predictor and much more."}/>
+          <Project title="Project 4" description=" Landing page of an online Loan Application." />
+          <Project title="Project 5" description={"Body of Fhealth. This application also includes PCOS, cancer and malaria predictor and much more."}/>
 
           <Project title="Project 6" description={"Further body and footer of BankWiz"} />
           <Project title="Project 7" description={"Feed page of Take-A-Step. This project won First Position in Hack4Earth Hackathon conducted by IIITG under Swachhta Pakhwada."} />
           <Project title="Project 8" description={"Footer of online Loan Application and Contact Us page of BankWiz"}/>
 
           {/* ROW 3 */}
-          <Project title="Project 9" description={"Further Body of Fhealth. This project got selected to participate in the final round of Microsoft Azure Hackathon."} />
+          <Project title="Project 9" description={"Further Body of Fhealth. This project got selected to participate in the final round of the Microsoft Azure Hackathon."} />
           <Project title="Project 10" description={"Interactive Dashboard for BankWiz users and admin."} />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-semibold"
           >
             SMOOTH USER EXPERIENCE
           </div>
               <div className="flex justify-center text-center items-center p-4 bg-slate-200
-              max-w-[400px] max-h-[400px] text-md font-playfair font-semibold">
+              max-w-[400px] max-h-[400px] text-md font-semibold">
                   Gihub links
               </div>
               
             <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-slate-200
-              max-w-[400px] max-h-[400px] text-md font-playfair font-semibold">
+              max-w-[400px] max-h-[400px] text-md font-semibold">
                  <a href="https://github.com/Karunasharma09/FHealth">Fhealth</a> 
             </div>
             <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-slate-200
-              max-w-[400px] max-h-[400px] text-md font-playfair font-semibold">
+              max-w-[400px] max-h-[400px] text-md font-semibold">
                   <a href="">BankWiz</a>
             </div>
             <div className=" hover:text-red transition duration-500 flex justify-center text-center items-center p-4 bg-slate-200
-              max-w-[400px] max-h-[400px] text-md font-playfair font-semibold">
+              max-w-[400px] max-h-[400px] text-md font-semibold">
                   <a href="https://github.com/Karunasharma09/TakeaStep">Take-A-Step</a>
             </div>
         </motion.div>
