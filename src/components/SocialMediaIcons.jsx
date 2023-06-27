@@ -3,7 +3,7 @@ const SocialMediaIcons = () => {
     <div className=" p-3 rounded-full flex justify-evenly md:justify-start my-10 gap-7">
       <a
         className=" animate-none hover:opacity-50 transition duration-500"
-        href="https://www.linkedin.com"
+        href="https://www.linkedin.com/in/karuna-sharma1212/"
         target="_blank"
         rel="noreferrer"
       >
@@ -11,7 +11,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className=" animate-none hover:opacity-50 transition duration-500"
-        href="https://www.twitter.com"
+        href="https://leetcode.com/karunasharma1212/"
         target="_blank"
         rel="noreferrer"
         
@@ -21,7 +21,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.facebook.com"
+        href="https://github.com/Karunasharma09"
         target="_blank"
         rel="noreferrer"
       >
@@ -30,7 +30,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.instagram.com"
+        href="https://www.instagram.com/karunasharma1212/"
         target="_blank"
         rel="noreferrer"
       >
