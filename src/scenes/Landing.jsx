@@ -11,30 +11,30 @@ const Landing = ({ setSelectedPage }) => {
       className=" font-custumfont mx-auto md:flex md:justify-between md:items-center gap-16 md:h-full"
     >
       {/* IMAGE SECTION */}
-      <div className=' animate-pulse  absolute top-36 right-40 w-2/3 h-56 bg-pink-200 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div>
+      {/* <div className=' animate-pulse  absolute top-36 right-40 w-2/3 h-56 bg-pink-200 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div>
       <div className=' animate-pulse absolute top-36 left-40 w-1/3 h-72 bg-sky-200 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div>
-      <div className='animate-pulse absolute top-52 left-1/3 w-1/3 h-72 bg-yellow-100 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div> 
-      <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
+      <div className='animate-pulse absolute top-52 left-1/3 w-1/3 h-72 bg-yellow-100 opacity-100 rounded-full mix-blend-multiply filter blur-3xl'></div>  */}
+      <div className="basis-4/5 z-10 mt-16 md:mt-16 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div
-          className=" relative before:rounded-3xl z-0 ml-10 before:absolute before:-top-5 before:left-8
-          before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-8  before:border-yellow before:z-[-1]"
+          className=" relative before:rounded-xl z-0 ml-10 before:absolute before:-top-1 before:left-2
+          before:w-full before:max-w-[400px] md:before:max-w-[1000px] before:h-full before:border-8  before:border-green-900 before:z-[-1]"
         >
           <div
-            className="relative z-0 ml-10 rounded-3xl before:rounded-3xl before:absolute before:-top-10 before:left-10  left-8 top-10 
-            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-8  before:border-red border-8  border-blue  before:z-[-1]"
+            className="relative z-0 ml-10 rounded-3xl before:rounded-xl before:absolute before:-top-8 before:left-20 left-8 top-10 
+            before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-8  before:border-green-700 border-8  border-green-800  before:z-[-1]"
           >
             <img
               alt="profile"
-              className=" h-96 hover:filter hover:saturate-150 rounded-full transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src={require("../assets/p1.jpeg")}
+              className=" h-96 hover:filter hover:saturate-150 rounded-2xl transition duration-500 z-10 w-full max-w-[400px] md:max-w-[1000px]"
+              src={require("../assets/harsh_pic.jpg")}
             />
           </div></div>
         ) : (
           <img
             alt="profile"
-            className=" pt-5 rounded-full z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src={require("../assets/p1.jpeg")}
+            className=" pt-5 rounded-3xl z-10 w-full max-w-[800px] md:max-w-[1000px]"
+            src={require("../assets/harsh_pic.jpg")}
           />
         )}
       </div>
@@ -52,13 +52,12 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="  text-6xl font-custumfont font-extrabold z-10 text-center md:text-start">
-            Karuna Sharma
-           
+          <p className=" text-green-600 text-6xl font-custumfont font-extrabold z-10 text-center md:text-start">
+            Harsh       
           </p>
-
+          <p className=" text-6xl font-custumfont font-extrabold z-10 text-center md:text-start">Gaur   </p>
           <p className=" mt-10 mb-10 text-xl text-center md:text-start">
-          I am a programmer, Frontend developer, and a Designer
+          I am a programmer and Full stack developer
           </p>
         </motion.div>
 
@@ -74,7 +73,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <div className="flex p-3 rounded-lg bg-gradient-to-r from-blue via-red to-yellow">
+          <div className="flex p-3 rounded-lg bg-gradient-to-r from-green-600 via-green-900 to-green-900">
           <AnchorLink
             className="  text-deep-blue py-2 px-5 font-semibold
             rounded-l-2xl hover:text-white transition duration-500 text-base"
@@ -89,7 +88,7 @@ const Landing = ({ setSelectedPage }) => {
             href="#contact"
           > */}
             <div className="  rounded-r-2xl opacity-100 hover:text-red transition duration-500 flex items-center justify-center px-5 text-base font-semibold">
-            <a href={require("../assets/resume_prefinal.pdf")} download="myFile">Resume</a>
+            <a href={require("../assets/Harsh_oc.pdf")} download="myFile">Resume</a>
                
               <span className="animate-bounce">
               <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

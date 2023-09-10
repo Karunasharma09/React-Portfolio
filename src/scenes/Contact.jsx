@@ -33,7 +33,7 @@ const Contact = () => {
       >
         <div>
           <p className=" font-semibold text-4xl">
-            <span className="text-red">CONTACT</span> ME
+            <span className="text-green-500">CONTACT</span> ME
           </p>
           <div className="flex md:justify-start my-5">
             <LineGradient width="w-1/2" />
@@ -66,7 +66,7 @@ const Contact = () => {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
-          className=" my-auto h-[500px] basis-1/2 mt-10 md:mt-0 bg-slate-100 p-10 md:px-20"
+          className=" my-auto h-[500px] basis-1/2 mt-10 md:mt-0 bg-slate-900 text-white p-10 md:px-20"
         >
           <form
             className="items-center my-6"
@@ -76,7 +76,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full caret-blue border-4 border-blue rounded-lg outline-none bg-transparent font-semibold placeholder-opaque-black p-3"
+              className="w-full caret-blue border-4 border-blue rounded-lg outline-none bg-transparent font-semibold placeholder-opaque-white p-3"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -92,7 +92,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full border-4 border-red rounded-lg outline-none bg-transparent font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full border-4 border-red rounded-lg outline-none bg-transparent font-semibold placeholder-opaque-white p-3 mt-5"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -108,7 +108,7 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-transparent outline-none border-4 rounded-lg border-yellow font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-transparent outline-none border-4 rounded-lg border-yellow font-semibold placeholder-opaque-white p-3 mt-5"
               name="message"
               placeholder="MESSAGE"
               rows="4"
@@ -128,7 +128,7 @@ const Contact = () => {
             )}
             <div className="flex justify-center ">
             <button
-              className="p-5 bg-gradient-to-r rounded-lg from-blue via-red  to-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="p-5 bg-gradient-to-r rounded-lg from-green-400 via-green-600  to-green-900 font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
               type="submit"
             >
               SEND ME A MESSAGE

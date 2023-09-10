@@ -20,12 +20,12 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 768px)");
-  const navbarBackground = isTopOfPage ? "" : " bg-white shadow-md";
+  const navbarBackground = isTopOfPage ? "" : " bg-green-900 shadow-md";
 
   return (
     <nav className={`${navbarBackground}  delay-1000 z-40 w-full fixed top-0 py-6 font-custumfont`}>
       <div className="flex items-center justify-between mx-auto w-9/12">
-        <h4 className= " text-2xl font-bold">KS</h4>
+        <h4 className= " text-2xl font-bold">HG</h4>
 
         {/* DESKTOP NAV */}
         {isDesktop ? (
@@ -40,11 +40,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
+            {/* <Link
               page="Projects"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            />
+            /> */}
             {/* <Link
               page="Achivements"
               selectedPage={selectedPage}
@@ -99,11 +99,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <Link
+              {/* <Link
                 page="Projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
-              />
+              /> */}
               <Link
                 page="Education"
                 selectedPage={selectedPage}

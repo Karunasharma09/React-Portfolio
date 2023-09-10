@@ -19,7 +19,7 @@ const MySkills = () => {
         >
 
           <p className="font-semibold text-4xl mb-5">
-            MY <span className="text-red mb-5">SKILLS</span>
+            MY <span className="text-green-700 mb-5">SKILLS</span>
           </p>
           <LineGradient width="1/3"></LineGradient>
         </motion.div>
@@ -40,17 +40,17 @@ const MySkills = () => {
           }}
         >
           <div
-            className="relative z-0 ml-0  before:absolute before:-top-4 before:left-4 
+            className=" bg-slate-900 relative z-0 ml-0  before:absolute before:-top-4 before:left-4 
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-4 before:border-l-0 before:border-b-0 before:border-yellow before:z-[-0]"
           >
           <div className="p-5 shadow-xl">
-          <div className="relative h-32 ">
+          <div className="relative h-32">
             <div className="z-10">
               <p className=" pt-3 font-semibold text-3xl">
                 Web Development
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+          <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="p-4 mt-5">
             <ol className=" list-disc text-xl font-medium">
@@ -64,13 +64,13 @@ HTML</li>
 </svg>CSS</li>
               <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>TailWind</li>
+</svg>NodeJS</li>
 <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>JavaScript</li>
-<li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
+{/* <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>React</li>
+</svg>React</li> */}
             </ol>
           </p>
           </div>
@@ -90,7 +90,7 @@ HTML</li>
           }}
         >
           <div
-            className="relative z-0 ml-0  before:absolute before:-top-4 before:left-4 
+            className="bg-slate-900 relative z-0 ml-0  before:absolute before:-top-4 before:left-4 
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-4 before:border-l-0 before:border-b-0 before:border-blue before:z-[-0]"
           >
           <div className="p-5 shadow-xl">
@@ -113,9 +113,9 @@ HTML</li>
 <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>Python</li>
-<li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
+{/* <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>Java</li>
+</svg>Java</li> */}
 <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>C</li>
@@ -137,7 +137,7 @@ HTML</li>
           }}
         >
           <div
-            className="relative z-0 ml-0  before:absolute before:-top-4 before:left-4 
+            className="bg-slate-900 relative z-0 ml-0  before:absolute before:-top-4 before:left-4 
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-4 before:border-l-0 before:border-b-0 before:border-red before:z-[-0]"
           >
           <div className="p-5 shadow-xl">
@@ -157,15 +157,15 @@ HTML</li>
 <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>Algorithm</li>
+{/* <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>PySpark</li> */}
 <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>PySpark</li>
+</svg>Video Editing</li>
 <li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>Figma</li>
-<li className="flex items-center gap-3"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-6 h-6 text-green-600">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>Canva</li>
+</svg>Videography</li>
             </ol>
           </p>
           </div>

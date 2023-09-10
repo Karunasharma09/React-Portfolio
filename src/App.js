@@ -27,7 +27,7 @@ function App() {
   }, []);
 
   return (
-    <div className="">
+    <div className=" bg-black text-white">
       
       <Navbar
         isTopOfPage={isTopOfPage}
@@ -56,7 +56,7 @@ function App() {
           <MySkills />
         </motion.div>
       </div>
-      <div className="w-9/12 mx-auto font-custumfont">
+      {/* <div className="w-9/12 mx-auto font-custumfont">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -64,7 +64,7 @@ function App() {
         >
           <Projects />
         </motion.div>
-      </div>
+      </div> */}
       {/* <div className=" bg-deep-blue "> */}
       <div className="w-9/12 mx-auto md:h-full ">
         <motion.div

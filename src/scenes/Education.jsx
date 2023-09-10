@@ -22,7 +22,7 @@ const Education = () => {
           
           <span className="font-semibold text-4xl ">
             Edu
-          </span><span className="font-semibold text-4xl text-red">cation</span>
+          </span><span className="font-semibold text-4xl text-green-900">cation</span>
           <div className="mt-5"><LineGradient width="1/3"></LineGradient></div>
         </motion.div>
       </div>
@@ -49,14 +49,14 @@ const Education = () => {
             {/* <!-- left --> */}
             <div class="flex flex-row-reverse  md:contents">
               <div
-                class="hover:bg-cyan-400  hover:scale-105 transition duration-500 cursor-pointer  bg-blue col-start-1 col-end-5 p-4   my-4 ml-auto shadow-md"
+                class="hover:bg-black  hover:scale-105 transition duration-500 cursor-pointer   bg-slate-900 col-start-1 col-end-5 p-4   my-4 ml-auto shadow-md"
               >
-                <div class=" text-slate-900 font-semibold text-base mb-1">Indian Institute of Information Technology Guwahati </div>
-                <div className=" text-slate-800 font-semibold text-sm">B.Tech in Computer Science Engineering</div>
-                <p class="leading-tight text-sm font-medium text-slate-700">
+                <div class=" text-green-400 font-semibold text-base mb-1">Indian Institute of Information Technology Guwahati </div>
+                <div className=" text-slate-200 font-semibold text-sm">B.Tech in Computer Science Engineering</div>
+                <p class="leading-tight text-sm font-medium text-slate-400">
                   Expected Graduation : June 2024
                 </p>
-                <p className="text-sm font-medium text-slate-700">Current GPA: 8.86/10 </p>
+                <p className="text-sm font-medium text-slate-400">Current GPA: 8.04/10 </p>
               </div>
               <div class=" col-start-5 col-end-6 md:mx-auto relative mr-10">
                 <div class="  h-full w-6 flex items-center justify-center">
@@ -78,29 +78,27 @@ const Education = () => {
                 ></div>
               </div>
               <div
-                class=" hover:bg-pink-500 hover:scale-105 transition duration-500 bg-red col-start-6 col-end-10 p-4   my-4 mr-auto shadow-md"
+                class=" hover:bg-black hover:scale-105 transition duration-500 bg-slate-900 col-start-6 col-end-10 p-4   my-4 mr-auto shadow-md"
               >
-                <div class=" text-slate-900 font-semibold text-base mb-1">Kendriya Vidyalaya No 3, Air Force
-                  Station, Vadodara</div>
-                <div className=" text-slate-800 font-semibold text-sm">Higher Secondary (Class 12th)</div>
-                <p class="leading-tight text-sm font-medium text-slate-700">
-                  2020 passout 
+                <div class=" text-green-400 font-semibold text-base mb-1">Modern Delhi Public School, Sector-87, Faridabad</div>
+                <div className=" text-slate-200 font-semibold text-sm">Higher Secondary (Class 12th)</div>
+                <p class="leading-tight text-sm font-medium text-slate-400">
+                  2019 passout 
                 </p>
-                <p className="text-sm font-medium text-slate-700">Percentage: 92.00% </p>
+                <p className="text-sm font-medium text-slate-400">Percentage: 79.20% </p>
               </div>
             </div>
             {/* <!-- left --> */}
             <div class="flex flex-row-reverse md:contents">
               <div
-                class="hover:bg-amber-300  hover:scale-105 transition duration-500 bg-yellow col-start-1 col-end-5 p-4 my-4 ml-auto shadow-md"
+                class="hover:bg-black  hover:scale-105 transition duration-500 bg-slate-900 col-start-1 col-end-5 p-4 my-4 ml-auto shadow-md"
               >
-                <div class=" text-slate-900 font-semibold text-base mb-1">Kendriya Vidyalaya No 3, Air Force
-                  Station, Makarpura</div>
-                <div className=" text-slate-800 font-semibold text-sm">Secondary School (Class 10th)</div>
-                <p class="leading-tight text-sm font-medium text-slate-700">
-                  2018 passout 
+                <div class=" text-green-400 font-semibold text-base mb-1">Modern Delhi Public School, Sector-87, Faridabad</div>
+                <div className=" text-slate-200 font-semibold text-sm">Secondary School (Class 10th)</div>
+                <p class="leading-tight text-sm font-medium text-slate-400">
+                  2017 passout 
                 </p>
-                <p className="text-sm font-medium text-slate-700">Percentage: 92.20% </p>
+                <p className="text-sm font-medium text-slate-400">CGPA: 9.6 </p>
               </div>
               <div class=" col-start-5 col-end-6 md:mx-auto relative mr-10">
                 <div class="  h-full w-6 flex items-center justify-center">
